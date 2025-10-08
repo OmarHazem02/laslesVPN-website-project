@@ -59,9 +59,8 @@ I’m now starting my **JavaScript learning journey**, aiming to make more dynam
 
 ### 🖥️ Desktop Version
 <img src="laslesVPN-pc-version.jpg" alt="Desktop version">
-
 ### 📱 Mobile Version
-<img src="laslesVPN-Phone-version.jpg" alt="Mobile version"  width=auto>
+<img src="lasles-phone-ver.PNG" alt="Mobile version"  width=auto>
 ### 📱 Tablet Version
 <img src="laslesVPN-Tablet-version.PNG" alt="Mobile version" >
 ---
