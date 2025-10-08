@@ -67,8 +67,7 @@ I’m now starting my **JavaScript learning journey**, aiming to make more dynam
 ## 🔗 Live Demo
 
 [View Live Website](https://omarhazem02.github.io/laslesVPN-website-project/) 
-[GitHub Repository](#)
-<a href="https://omarhazem02.github.io/Quran-tab-webpage/" target="_blank">👉 Click here to view the project</a>
+
 
 ---
 
