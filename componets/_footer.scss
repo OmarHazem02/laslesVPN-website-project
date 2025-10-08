@@ -1,0 +1,87 @@
+.footer {
+  background-color: #f8f8f8;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  padding-top: 180px;
+  padding-bottom: 100px;
+  /* to extend the background to the background  */
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding-left: calc(50vw - 50% + 20px);
+  padding-right: calc(50vw - 60% + 1px);
+}
+.footer .logo {
+  margin-bottom: 20px;
+}
+
+.lasles-def {
+  color: #4f5665;
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-16);
+  line-height: 30px;
+  max-width: 340px;
+  margin-bottom: 30px;
+}
+
+.lasles-def span {
+  font-weight: var(--font-weight-500);
+}
+.icons {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.copyrights {
+  color: #afb5c0;
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-16);
+}
+.copyrights span {
+  font-weight: var(--font-weight-500);
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-title {
+  color: var(--color-darker-bluishblack);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-18);
+}
+
+.footer-items {
+  color: var(--color-bluishblack);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-16);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-link {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.footer-link:hover,
+.footer-link:active {
+  border-bottom: 1px solid var(--color-bluishblack);
+}
+
+.icon-circle {
+  background-color: var(--color-red);
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 34px;
+  height: 30px;
+  margin-bottom: -30px;
+  box-shadow: 1px 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.footer-icon svg {
+  fill: white;
+  z-index: 1;
+  cursor: pointer;
+}

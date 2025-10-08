@@ -1,0 +1,274 @@
+/* Testimonals section Start */
+.testimonals-section {
+  margin-bottom: 182px;
+}
+.info__testimonals-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.title__testimonals-section {
+  color: var(--color-darker-bluishblack);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-35);
+  text-align: center;
+  max-width: 447.81px;
+  margin-bottom: 20px;
+  line-height: 50px;
+}
+.description__testimonals-section {
+  color: var(--color-bluishblack);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-16);
+  text-align: center;
+  max-width: 555px;
+  line-height: 30px;
+}
+
+.testimonals {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 60px;
+  overflow: hidden;
+}
+
+.testimonal {
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.testimonal-img {
+  width: 50px;
+}
+.Ahmed-img {
+  border-radius: 50%;
+  height: 51px;
+}
+.name__testimonal {
+  color: var(--color-darker-bluishblack);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-18);
+  margin-bottom: 5px;
+}
+
+.country__testimonal {
+  color: var(--color-bluishblack);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-14);
+  margin-left: 1px;
+}
+
+.person-rate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.rating {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.rate {
+  color: var(--color-darker-bluishblack);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-16);
+}
+
+.comment {
+  color: var(--color-darker-bluishblack);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-16);
+  line-height: 30px;
+  width: 340px;
+}
+input[type="radio"] {
+  position: fixed;
+  top: -100vh;
+  left: -100vw;
+  opacity: 0;
+}
+.bullets label {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #dde0e4;
+  cursor: pointer;
+}
+.bullets {
+  display: flex;
+  gap: 15px;
+}
+/* bullets styling */
+#comment1:checked ~ .controls .bullets label:nth-child(1) {
+  background-color: var(--color-red);
+  width: 45px;
+  height: 15px;
+  border-radius: 15px;
+  transition: width 0.2s ease-out;
+}
+#comment2:checked ~ .controls .bullets label:nth-child(2) {
+  background-color: var(--color-red);
+  width: 45px;
+  height: 15px;
+  border-radius: 15px;
+  transition: width 0.2s ease-out;
+}
+#comment3:checked ~ .controls .bullets label:nth-child(3) {
+  background-color: var(--color-red);
+  width: 45px;
+  height: 15px;
+  border-radius: 15px;
+  transition: width 0.2s ease-out;
+}
+#comment4:checked ~ .controls .bullets label:nth-child(4) {
+  background-color: var(--color-red);
+  width: 45px;
+  height: 15px;
+  border-radius: 15px;
+  transition: width 0.2s ease-out;
+}
+/* actions when each comment is checked */
+#comment1:checked ~ .testimonals-container .testimonal1 {
+  border: 2px solid #f53838;
+  transition: 0.3s ease;
+}
+#comment1:checked ~ .controls .arrow-controls .arrow-tocomment4-fromcomment1 {
+  display: flex;
+}
+#comment1:checked ~ .controls .arrow-controls .arrow-comment1 {
+  display: none;
+}
+#comment2:checked ~ .testimonals-container .testimonal2 {
+  border: 2px solid #f53838;
+  transition: 0.3s ease;
+}
+
+#comment2:checked ~ .testimonals-container .testimonal1 {
+  margin-left: -410px;
+  transition: 0.3s ease;
+}
+
+#comment2:checked ~ .controls .arrow-controls .arrow-comment2 {
+  display: none;
+}
+#comment2:checked ~ .controls .arrow-controls .arrow-tocomment1-fromcomment2 {
+  display: flex;
+}
+#comment2:checked ~ .controls .arrow-controls .arrow-comment1 {
+  display: none;
+}
+#comment2:checked ~ .controls .arrow-controls .arrow-comment3 {
+  display: flex;
+}
+#comment3:checked ~ .testimonals-container .testimonal3 {
+  border: 2px solid #f53838;
+}
+#comment3:checked ~ .controls .arrow-controls .arrow-comment2 {
+  display: none;
+}
+#comment3:checked ~ .controls .arrow-controls .arrow-comment1 {
+  display: none;
+}
+
+#comment3:checked ~ .controls .arrow-controls .arrow-tocomment2-fromcomment3 {
+  display: flex;
+}
+#comment3:checked ~ .controls .arrow-controls .arrow-comment4 {
+  display: flex;
+}
+#comment3:checked ~ .testimonals-container .testimonal2,
+#comment3:checked ~ .testimonals-container .testimonal1 {
+  margin-left: -450px;
+  transition: 0.3s ease;
+}
+#comment3:checked ~ .testimonals-container .testimonal3 {
+  transition: 0.3s ease;
+}
+#comment4:checked ~ .testimonals-container .testimonal4 {
+  border: 2px solid #f53838;
+}
+#comment4:checked ~ .controls .arrow-controls .arrow-comment2 {
+  display: none;
+}
+#comment4:checked ~ .controls .arrow-controls .arrow-comment1 {
+  display: none;
+}
+#comment4:checked ~ .controls .arrow-controls .arrow-tocomment3-fromcomment4 {
+  display: flex;
+}
+#comment4:checked ~ .controls .arrow-controls .arrow-tocomment1-fromcomment4 {
+  display: flex;
+}
+#comment4:checked ~ .testimonals-container .testimonal2,
+#comment4:checked ~ .testimonals-container .testimonal1,
+#comment4:checked ~ .testimonals-container .testimonal3 {
+  margin-left: -450px;
+  transition: 0.3s ease;
+}
+/* arrows controls styling */
+.arrow-controls {
+  display: flex;
+  gap: 20px;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow-controls label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid var(--color-red);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  transition: background-color 0.25s ease, transform 0.15s ease;
+}
+
+.arrow-controls .arrow-comment2 img,
+.arrow-controls .arrow-comment3 img,
+.arrow-controls .arrow-tocomment1-fromcomment3 img,
+.arrow-controls .arrow-comment4 img,
+.arrow-controls .arrow-tocomment1-fromcomment4 img {
+  transform: rotate(180deg);
+}
+
+.arrow-controls label:hover,
+.arrow-controls label:active,
+.arrow-controls label:focus {
+  background-color: var(--color-red);
+  transform: scale(0.93);
+}
+
+.arrow-controls label:hover img,
+.arrow-controls label:active img,
+.arrow-controls label:focus img {
+  filter: grayscale(1) brightness(1000%);
+  transition: filter 0.2s ease;
+}
+.arrow-controls .arrow-tocomment1-fromcomment3,
+.arrow-controls .arrow-tocomment2-fromcomment3,
+.arrow-controls .arrow-tocomment1-fromcomment2,
+.arrow-controls .arrow-comment4,
+.arrow-controls .arrow-comment3,
+.arrow-controls .arrow-tocomment3-fromcomment4,
+.arrow-controls .arrow-tocomment1-fromcomment4,
+.arrow-controls .arrow-tocomment4-fromcomment1 {
+  display: none;
+}

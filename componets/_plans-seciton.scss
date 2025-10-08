@@ -1,0 +1,119 @@
+/* Plans Section Start */
+#pricing {
+  scroll-margin-top: -7rem;
+}
+.plans-section {
+  background: linear-gradient(
+    to bottom,
+    rgba(248, 248, 248, 1),
+    rgba(248, 248, 248, 0)
+  );
+  padding-top: 80.27px;
+  margin-bottom: 150px;
+  /* to extend the gradient to the background  */
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding-left: calc(50vw - 50%);
+  padding-right: calc(50vw - 50%);
+}
+.title__plan-section {
+  color: var(--color-darker-bluishblack);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-35);
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.description__plan-section {
+  color: var(--color-bluishblack);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-16);
+  line-height: 30px;
+  text-align: center;
+  max-width: 555px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.plans {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.plan-card {
+  background-color: white;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  padding: 50px;
+  padding-top: 79.63px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plan-card:hover {
+  border: 2px solid var(--color-red);
+}
+.plan-img {
+  width: 144.9px;
+  margin-bottom: 30px;
+}
+.plan-name {
+  color: var(--color-darker-bluishblack);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-18);
+  margin-bottom: 30px;
+}
+.plan-features {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-bottom: 130px;
+}
+.plan-feature {
+  display: flex;
+  align-items: center;
+  gap: 20.17px;
+  color: var(--color-bluishblack);
+}
+.check-mark__plan-section {
+  width: 24px;
+  height: 24px;
+}
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price {
+  color: var(--color-darker-bluishblack);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-25);
+  margin-bottom: 20px;
+}
+.price span {
+  color: var(--color-bluishblack);
+  font-weight: var(--font-weight-400);
+}
+.action-button {
+  color: var(--color-red);
+  font-weight: var(--font-weight-700);
+  font-size: var(--font-size-16);
+  border: 2px solid var(--color-red);
+  border-radius: 50px;
+  padding: 13px 62.94px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+.action-button:hover,
+.action-button:active {
+  background-color: var(--color-red);
+  color: white;
+  box-shadow: 25.25px 17px 54px rgba(245, 56, 56, 0.35);
+}
+
+.premium-plan .plan-features {
+  margin-bottom: 50px;
+}
+.standard-plan .plan-features {
+  margin-bottom: 90px;
+}
+/* Plans Section End */
