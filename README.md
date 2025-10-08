@@ -58,10 +58,12 @@ I’m now starting my **JavaScript learning journey**, aiming to make more dynam
 
 
 ### 🖥️ Desktop Version
-<img src="qurantabscreenshotdesktopver.jpg" alt="Desktop version">
-### 🖥️ Tablet Version
+<img src="laslesVPN-pc-version.jpg" alt="Desktop version">
+
 ### 📱 Mobile Version
-<img src="qurantabscreenshotphonever.jpg" alt="Mobile version" >
+<img src="laslesVPN-Phone-version.jpg" alt="Mobile version"  width=auto>
+### 📱 Tablet Version
+<img src="laslesVPN-Tablet-version.PNG" alt="Mobile version" >
 ---
 
 ## 🔗 Live Demo
